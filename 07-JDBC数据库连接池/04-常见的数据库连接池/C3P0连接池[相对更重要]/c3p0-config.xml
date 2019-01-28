@@ -8,6 +8,7 @@
     <property name="initialPoolSize">10</property>
 
   </default-config>
+<!--c3p0的命名配置及使用 private static ComboPooledDataSource ds = new ComboPooledDataSource("abcd");-->
  <named-config name="abcd">
    <property name="driverClass">com.mysql.jdbc.Driver</property>
     <property name="jdbcUrl">jdbc:mysql://localhost:3306/day05</property>
